@@ -1,0 +1,64 @@
+.loaded-bonds {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  padding: 20px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.loaded-bonds .bond {
+  height: 100px;
+  width: 205px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(./prize-bond.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 1.3rem;
+}
+.form {
+  display: none;
+}
+.actions {
+  display: flex;
+  justify-content: center;
+}
+
+.actions button {
+  padding: 10px 20px;
+  outline: none;
+  border: 1px solid transparent;
+  margin: 0 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 2rem;
+  color: #fff;
+  transition: box-shadow 0.3s linear;
+  box-shadow: none;
+}
+
+.actions .load {
+  background: #007bff;
+}
+.actions .load:hover {
+  box-shadow: 0px 0px 0px 5px #28a745;
+}
+
+.actions .search {
+  background: #28a745;
+}
+.actions .search:hover {
+  box-shadow: 0px 0px 0px 5px #007bff;
+}
+
+.actions .add {
+  background: #17a2b8;
+}
+.actions .add:hover {
+  box-shadow: 0px 0px 0px 5px #ffc107;
+}

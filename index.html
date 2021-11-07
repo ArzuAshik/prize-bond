@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prize Bond Draw</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form">
+      <form
+        action="https://www.bb.org.bd/investfacility/prizebond/searchPbond.php"
+        method="get"
+        id="draw-form"
+      >
+        <input type="text" name="txtNumbers" id="bond-numbers" />
+      </form>
+    </div>
+    <div class="actions">
+      <button class="load" onclick="loadBond()">Load Bonds</button>
+      <button class="search" onclick="search()">Check Result</button>
+      <button class="add" onclick="addBond()">Add New Bond</button>
+    </div>
+    <div class="loaded-bonds"></div>
+    <div class="result"></div>
+
+    <script src="bonds.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
