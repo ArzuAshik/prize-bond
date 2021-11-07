@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #6c757d;
+}
 .loaded-bonds {
   display: flex;
   align-items: center;
@@ -27,6 +32,7 @@
 .actions {
   display: flex;
   justify-content: center;
+  padding: 20px 0;
 }
 
 .actions button {
