@@ -4,6 +4,7 @@ const loadedBonds = document.querySelector(".loaded-bonds");
 
 function loadBond(){
     formInput.value = myBonds.join(",");
+    loadedBonds.innerHTML = null;
     myBonds.forEach(bond => {
         const div = document.createElement("div");
         div.classList.add("bond");
